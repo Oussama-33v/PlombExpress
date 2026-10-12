@@ -1,14 +1,189 @@
-*{
+* {
     margin: 0px;
+    padding: 0px;
 }
 
-body{
+body {
     height: 100%;
     width: 100%;
 }
-header{ 
-    background-color: brown;
+
+header {
+    height: 96px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+        height: 26px;
+        width: 26px;
+        padding: 7px 8px;
+        border-radius: 12px;
+    }
+
+    h1 {
+        height: 30px;
+        width: 171px;
+        font-style: bold;
+        font-weight: 700;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.nav-items {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: black;
+
+    li {
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.nav-btn {
+    background-color: #FF6418;
+    padding: 14px 14px;
+    border-radius: 5px;
+    border: none;
+
+    a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        font-style: normal;
+        text-decoration: none;
+    }
+}
+
+.hero {
+    padding-top: 64px;
+    padding-left: 104px;
+    padding-right: 104px;
+    height: 668px;
+    background-color: #F3F7FA;
+}
+
+.presentation {
+    height: 464px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    .promesse {
+        width: 666px;
+        height: 419px;
+        flex-flow: column;
+        display: flex;
+
+        .intervation {
+            height: 30px;
+            width: 450px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            img {
+                width: 13px;
+                height: 16px;
+                top: 1.33px;
+                left: 4px;
+                border: 1.8px;
+            }
+
+            p {
+                height: 30px;
+                width: 450px;
+                margin-bottom: 14px;
+                color: #0866C2;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 100%;
+                font-style: normal;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .hero-heading {
+            height: 189px;
+            width: 580px;
+
+            h2 {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-weight: 700;
+                font-size: 53px;
+            }
+        }
+
+        p {
+            height: 84px;
+            width: 580px;
+            margin-top: 15px;
+            font-weight: 400;
+            font-size: 17px;
+            font-style: normal;
+        }
+
+        .hero-buttons {
+            .hero-nav-btn {
+                background-color: #FF6418;
+                padding: 14px 14px;
+                border-radius: 5px;
+                border: none;
+
+                a {
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 600;
+                    font-size: 14px;
+                    font-style: normal;
+                    text-decoration: none;
+                }
+            }
+
+            .services-btn {
+                background-color: white;
+                padding: 10px 14px;
+                border-radius: 5px;
+                border: none;
+
+                a {
+                    color: black;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 600;
+                    font-size: 14px;
+                    font-style: normal;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .image {
+        img {
+            height: 464px;
+            width: 588px;
+            border-radius: 24px;
+        }
+    }
+
 }
