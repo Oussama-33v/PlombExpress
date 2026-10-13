@@ -26,6 +26,7 @@ header {
         width: 26px;
         padding: 7px 8px;
         border-radius: 12px;
+        background-color: #0866C2;
     }
 
     h1 {
@@ -77,6 +78,7 @@ header {
     padding-right: 104px;
     height: 668px;
     background-color: #F3F7FA;
+
 }
 
 .presentation {
@@ -86,6 +88,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    background-color: white;
 
     .promesse {
         width: 666px;
@@ -102,7 +105,7 @@ header {
 
             img {
                 width: 13px;
-                height: 16px;
+                height: 15px;
                 top: 1.33px;
                 left: 4px;
                 border: 1.8px;
@@ -144,6 +147,8 @@ header {
         }
 
         .hero-buttons {
+            display: flex;
+            gap: 10px;
             .hero-nav-btn {
                 background-color: #FF6418;
                 padding: 14px 14px;
@@ -184,6 +189,27 @@ header {
             width: 588px;
             border-radius: 24px;
         }
+    }
+
+}
+.engagments{
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .intervention{
+        display: flex;
+        align-items: center;
+        img{
+        }
+    }
+    .travail-garanti{
+        display: flex;
+        align-items: center;
+    }
+    .quality{
+        display: flex;
+        align-items: center;
     }
 
 }
