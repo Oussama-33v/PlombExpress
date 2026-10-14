@@ -3,13 +3,8 @@
     padding: 0px;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-}
-
 header {
-    height: 96px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,16 +17,12 @@ header {
     gap: 10px;
 
     img {
-        height: 26px;
-        width: 26px;
-        padding: 7px 8px;
+        padding: 7px 12px;
         border-radius: 12px;
         background-color: #0866C2;
     }
 
     h1 {
-        height: 30px;
-        width: 171px;
         font-style: bold;
         font-weight: 700;
         font-size: 25px;
@@ -65,7 +56,7 @@ header {
     a {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight: 600;
+        font-weight: 900;
         font-size: 14px;
         font-style: normal;
         text-decoration: none;
@@ -73,74 +64,58 @@ header {
 }
 
 .hero {
-    padding-top: 64px;
-    padding-left: 104px;
-    padding-right: 104px;
-    height: 668px;
-    background-color: #F3F7FA;
-
+    padding: 90px 64px;
+    padding-bottom: 0px;
+    background-color: #F3F7FA
 }
 
 .presentation {
-    height: 464px;
     display: flex;
     align-items: center;
-    display: flex;
-    justify-content: space-between;
     gap: 30px;
     background-color: white;
 
     .promesse {
-        width: 666px;
-        height: 419px;
+        width: 50%;
         flex-flow: column;
         display: flex;
+        flex-direction: column;
+        gap: 40px;
+
 
         .intervation {
-            height: 30px;
-            width: 450px;
             display: flex;
             gap: 10px;
             align-items: center;
 
             img {
-                width: 13px;
-                height: 15px;
-                top: 1.33px;
-                left: 4px;
-                border: 1.8px;
+                height: 35px;
+                width: 35px;
             }
 
             p {
-                height: 30px;
-                width: 450px;
-                margin-bottom: 14px;
+
                 color: #0866C2;
                 font-family: Arial, Helvetica, sans-serif;
-                font-weight: 600;
+                font-weight: 900;
                 font-size: 12px;
                 line-height: 100%;
                 font-style: normal;
                 display: flex;
-                align-items: center;
             }
         }
 
         .hero-heading {
-            height: 189px;
-            width: 580px;
 
             h2 {
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                font-weight: 700;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 900;
                 font-size: 53px;
+                font-style: bold;
             }
         }
 
         p {
-            height: 84px;
-            width: 580px;
-            margin-top: 15px;
             font-weight: 400;
             font-size: 17px;
             font-style: normal;
@@ -185,20 +160,24 @@ header {
     }
 
     .image {
+        height: 100%;
+        width: 50%;
+
         img {
-            height: 464px;
-            width: 588px;
-            border-radius: 24px;
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
         }
     }
-
 }
 
 .engagments {
-    height: 92px;
+    margin-top: 40px;
+    padding: 14px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: antiquewhite;
 
     .intervention {
         display: flex;
@@ -265,3 +244,80 @@ header {
 
 }
 
+.servises {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 90px 64px;
+
+
+    .services-section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #52ff18;
+        gap: 15px;
+
+        p {
+            font-family: 'Inter';
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 12px;
+            line-height: 140%;
+            letter-spacing: 1.8px;
+            color: #0866C2;
+        }
+
+        h2 {
+            font-family: 'Inter';
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 40px;
+            line-height: 120%;
+            letter-spacing: -1.2px;
+            text-align: center;
+
+        }
+
+        h3 {
+            font-family: 'inter';
+            font-weight: 400;
+            font-style: 'Regular';
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+    }
+
+    .about-servises {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .service-1 {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            padding: 12px 12px;
+            border: 2px;
+            border-color: #0866C2;
+            border-radius: 20px;
+
+        }
+
+        .service-2 {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-3 {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+}
