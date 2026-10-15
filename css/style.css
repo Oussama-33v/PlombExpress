@@ -59,8 +59,10 @@ header {
         font-weight: 900;
         font-size: 14px;
         font-style: normal;
-        text-decoration: none;
+        text-decoration: none
     }
+
+    ;
 }
 
 .hero {
@@ -73,7 +75,6 @@ header {
     display: flex;
     align-items: center;
     gap: 30px;
-    background-color: white;
 
     .promesse {
         width: 50%;
@@ -177,7 +178,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: antiquewhite;
 
     .intervention {
         display: flex;
@@ -247,16 +247,15 @@ header {
 .servises {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
     padding: 90px 64px;
-
 
     .services-section1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background-color: #52ff18;
         gap: 15px;
 
         p {
@@ -294,30 +293,67 @@ header {
     .about-servises {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        gap: 30px;
 
-        .service-1 {
-            width: 33%;
+        .services {
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: black;
             display: flex;
             flex-direction: column;
-            padding: 12px 12px;
-            border: 2px;
-            border-color: #0866C2;
-            border-radius: 20px;
 
-        }
+            .service-image {
+                height: 50%;
+                border-radius: 10px;
+            }
 
-        .service-2 {
-            width: 33%;
-            display: flex;
-            flex-direction: column;
-        }
+            .serv-describe {
+                height: 50%;
+                padding: 20px 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
 
-        .service-3 {
-            width: 33%;
-            display: flex;
-            flex-direction: column;
+                .icone {
+                    height: 16px;
+                    width: 16px;
+                    padding: 12px 12px;
+                    background-color: #E7F1FB;
+                    border-radius: 10px;
+                }
+
+                h3 {
+                    width: 100%;
+                    font-family: 'Inter';
+                    font-weight: 700;
+                    font-style: Bold;
+                    font-size: 21px;
+                    line-height: 125%;
+                    letter-spacing: -0.5px;
+                }
+
+                p {
+                    font-family: Inter;
+                    font-weight: 400;
+                    font-style: 'regular';
+                    font-size: 15px;
+                    line-height: 165%;
+                    letter-spacing: 0%;
+
+                }
+
+            }
         }
+    }
+    .last-section2-btn{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 24px 24px;
+        border-radius: 13px;
+        border: 1 black;
+        border-style: solid;
 
     }
 }
