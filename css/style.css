@@ -32,7 +32,8 @@ header {
 
 .nav-items {
 
-font-weight: 300;    display: flex;
+    font-weight: 300;
+    display: flex;
     gap: 40px;
     align-items: center;
     color: black;
@@ -75,7 +76,7 @@ font-weight: 300;    display: flex;
     background-color: #F3F7FA
 }
 
-.presentation { 
+.presentation {
     width: 100%;
     display: flex;
     align-items: center;
@@ -93,8 +94,8 @@ font-weight: 300;    display: flex;
             align-items: center;
 
             img {
-                height: 25px;
-                width: 25px;
+                height: 30px;
+                width: 30px;
             }
 
             p {
@@ -155,7 +156,7 @@ font-weight: 300;    display: flex;
                 a {
                     color: black;
                     font-family: Arial, Helvetica, sans-serif;
-                    font-weight: 550    ;
+                    font-weight: 550;
                     font-size: 25px;
                     font-style: normal;
                     text-decoration: none;
@@ -166,6 +167,7 @@ font-weight: 300;    display: flex;
 
     .image {
         width: 50%;
+
         img {
             height: 100%;
             width: 100%;
@@ -176,7 +178,7 @@ font-weight: 300;    display: flex;
 
 .engagments {
     margin-top: 40px;
-        display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 
@@ -184,6 +186,7 @@ font-weight: 300;    display: flex;
         display: flex;
         align-items: center;
         gap: 20px;
+
         img {
             height: 25px;
             width: 25px;
@@ -308,13 +311,13 @@ font-weight: 300;    display: flex;
         gap: 40px;
         padding: 24px 24px;
         border-radius: 13px;
-        border: 1 black ;
-        border-style:ridge;
+        border: 1 black;
+        border-style: ridge;
 
         a {
             color: black;
             text-decoration: none;
-            font-family:Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             font-weight: 750;
             font-style: Bold;
             font-size: 25px;
@@ -331,6 +334,7 @@ font-weight: 300;    display: flex;
 
 .encorege {
     display: flex;
+    align-items: center;
     padding: 90px 64px;
     background-color: #F3F7FA;
 
@@ -339,8 +343,10 @@ font-weight: 300;    display: flex;
         display: flex;
         align-items: center;
         gap: 80px;
+
         .encorege-image {
             width: 50%;
+
             img {
                 height: 100%;
                 width: 100%;
@@ -349,10 +355,9 @@ font-weight: 300;    display: flex;
 
         .strengths {
             width: 50%;
-            padding: 25px 0px;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            align-items: center;
             gap: 50px;
 
             .exigence {
@@ -438,6 +443,170 @@ font-weight: 300;    display: flex;
                 }
             }
 
+        }
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #102A43;
+    padding: 90px 64px;
+    gap: 70px;
+
+    .informations {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: 20px;
+
+            .page-logo {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 20px;
+
+                p {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 40px;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+            }
+
+            .descraption {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                opacity: 0.5;
+            }
+
+            .social-media {
+                display: flex;
+                gap: 20px;
+
+                img {
+                    padding: 15px 15px;
+                    background-color: #30485E;
+                }
+            }
+        }
+
+        h2 {
+            display: flex;
+            align-items: start;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        .all-links {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            nav {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    opacity: 0.5;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-style: normal;
+                }
+            }
+
+        }
+
+        .footer-services {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .our-services {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                opacity: 0.5;
+                font-weight: 500;
+                font-style: normal;
+            }
+        }
+
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .contact-methods {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .contact {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    .footer-icon {
+                        height: 30px;
+                        width: 30px;
+                    }
+
+                    .contact-methode {
+                        display: flex;
+                        align-items: start;
+                        opacity: 0.5;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+
+                    }
+
+                }
+
+                .precision {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    opacity: 0.5;
+                }
+            }
+            
+        }
+    }
+    .legal-informations{
+        display: flex;
+        flex-direction: column;
+        hr{
+            opacity: 0.5;;
+        }
+        .all-infos{
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            padding-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            opacity: 0.5;
+            .legel-links{
+                display: flex;
+                gap: 20px;
+            }
         }
     }
 }
